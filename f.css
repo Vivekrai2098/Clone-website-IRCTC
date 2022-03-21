@@ -1,0 +1,1000 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+/*this is navigator part*/
+.nav{
+	height: 130px;
+	width: 1500px;
+	background-color: white;
+}
+/*this is login button*/
+.login{
+	height: 30px;
+	width: 80px;
+	background-color: blue;
+	position: absolute;
+	left: 20%;
+	top: 0%;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: white;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*this is the register button*/
+.re{
+	border: none;
+	position: absolute;
+	top: 0%;
+	left: 28%;
+	color: black;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 30px;
+	width: 80px;
+	font-weight: bold;
+	cursor: pointer;
+
+
+}
+		/*agent login*/
+.ag{
+	border: none;
+	position: absolute;
+	top: 0%;
+	left: 35%;
+	color: black;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 30px;
+	width: 90px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+ /*this is contact us*/
+.contact{
+	border: none;
+	position: absolute;
+	top: 0%;
+	left: 43%;
+	color: black;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 30px;
+	width: 90px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*this is ask disk*/
+.ask{
+	border: none;
+	position: absolute;
+	top: 0%;
+	left: 51%;
+	color: black;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 30px;
+	width: 90px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*this is alert*/
+
+
+.al{
+	border: none;
+	position: absolute;
+	top: 0%;
+	left: 58%;
+	color: white;
+	background-color: gray;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 30px;
+	width: 80px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*this is the  time */
+#time{
+	position: absolute;
+	top: 0%;
+	left: 64%;
+	color: black;
+	background-color: white;
+	font-size: 11px;
+	text-transform: uppercase;
+	height: 30px;
+	width: 150px;
+	font-weight: bold;
+	padding: 7px;
+	/*cursor: pointer;*/
+}
+ /*this is the a alphabate*/
+ #alpha{
+	
+	position: absolute;
+	top: 1%;
+	left: 77%;
+	color: black;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 30px;
+	width: 80px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*this is the next a */
+
+ #alp{
+	
+	position: absolute;
+	top: 1%;
+	left: 79%;
+	color: black;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 30px;
+	width: 80px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*this is a ++*/
+ #alo{
+	
+	position: absolute;
+	top: 1%;
+	left: 81%;
+	color: black;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 30px;
+	width: 80px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*this is hindi word*/
+.wo{
+	position: absolute;
+	top: 1%;
+	left: 84%;
+	color: black;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 30px;
+	width: 80px;
+	font-weight: bold;
+	cursor: pointer;
+}
+/*this is img*/
+.img{
+	background-image: url("index.png");
+	background-repeat: no-repeat;
+	height: 83px;
+	width: 83px;
+	background-size: cover;
+	position: absolute;
+	top: 22px;
+	left: 34px;
+
+}
+
+/*this is irctc image*/
+.img1{
+	background-image: url("index1.png");
+	background-repeat: no-repeat;
+	height: 83px;
+	width: 83px;
+	background-size: cover;
+	position: absolute;
+	top: 22px;
+	left: 1254px;
+
+}
+
+/*this is the house icon*/
+.fa-solid{
+	position: absolute;
+	top: 62px;
+	left: 193px;
+}
+/*this is irctc*/
+/*.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}*/
+#cen{
+	position: absolute;
+	top: 25%;
+	left: 6%;
+}
+.ir{
+	height: 37px;
+	cursor: pointer;
+	width: 134px;
+	background-color: blue;
+	position: absolute;
+	left: 18%;
+	top: 8%;
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+
+}
+
+/*this is part of list*/
+.order{
+	/*display: inline-block;*/
+	visibility: hidden;
+	list-style: none;
+	position: absolute;
+	top: 86px;
+	left: 253px;
+	z-index: 1;
+	box-shadow: 5px 0px 22px;
+}
+/*this part is hover main contain*/
+.hover:hover .order{
+	visibility: visible;
+}
+
+
+/*this is part edit the list*/
+li{
+	font-size: 	13px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 4px;
+}
+
+/*this is hover part in list*/
+li:hover{
+	background-color: pink;
+}
+
+/*this is the train menu bar*/
+.ain{
+	border: none;
+	position: absolute;
+	top: 9%;
+	left: 29%;
+	color: orange;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 23px;
+	width: 52px;
+	font-weight: bold;
+	cursor: pointer;
+	border-bottom: 2px solid orange;
+}
+/*this part is joint above code this hover container*/
+
+.shri{
+	/*display: inline-block;*/
+	visibility: hidden;
+	list-style: none;
+	position: absolute;
+	top: 80px;
+	left: 397px;
+	z-index: 1;
+	box-shadow: 5px 5px 22px;
+
+}
+
+/*visibility show */
+.book:hover .shri{
+	visibility: visible;
+}
+/*this is the next box container*/
+/*.another{*/
+	/*visibility: hidden;*/
+/*	list-style: none;
+	position: absolute;
+	top: 152px;
+	left: 592px;
+	z-index: 1;
+
+}*/
+/*this is the hover part*/
+/*.first:hover .another{
+	color: red;
+}
+*/
+
+
+.bus{
+	border: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 9%;
+	left: 34%;
+	color: black;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 23px;
+	width: 52px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+/*this is the flight*/
+.flight{
+	border: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 9%;
+	left: 38%;
+	color: black;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 23px;
+	width: 52px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+/*this is the hotel*/
+
+.hotel{
+	border: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 9%;
+	left: 42%;
+	color: black;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 23px;
+	width: 52px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+/*this is the holiday*/
+.holiday{
+	border: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 9%;
+	left: 46%;
+	color: black;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 23px;
+	width: 59px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+/*this is hover part*/
+.dayi{
+	/*display: inline-block;*/
+	visibility: hidden;
+	list-style: none;
+	position: absolute;
+	top: 80px;
+	left: 653px;
+	z-index: 1;
+	box-shadow: 5px 5px 22px;
+
+}
+
+.hday:hover .dayi{
+	visibility: visible;
+}
+
+
+
+
+
+
+/*this is loyality*/
+.loyality{
+	border: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 9%;
+	left: 51%;
+	color: black;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 23px;
+	width: 63px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+/*this is the meals*/
+.meals{
+	border: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 9%;
+	left: 55%;
+	color: black;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 23px;
+	width: 63px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+
+/*this is the permotion*/
+.permotion{
+	border: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 9%;
+	left: 60%;
+	color: black;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 23px;
+	width: 80px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+
+/*this is the partner*/
+.partner{
+	border: none;
+	position: absolute;
+	top: 8%;
+	left: 67%;
+	color: white;
+	background-color: blue;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 36px;
+	width: 154px;
+	font-weight: bold;
+	cursor: pointer;
+}
+/*this is the hover effect in partner*/
+.ter{
+	/*display: inline-block;*/
+	visibility: hidden;
+	list-style: none;
+	position: absolute;
+	top: 87px;
+	left: 937px;
+	z-index: 1;
+	box-shadow: 5px 5px 22px;
+
+}
+.par:hover .ter{
+	visibility: visible;
+}
+/*this is the more */
+.more{
+	border: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 9%;
+	left: 79%;
+	color: black;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 23px;
+	width: 63px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+.image{
+	/*background-color: red;*/
+	background-image: url("2.jpg");
+	/*background-color: red;*/
+	background-repeat: no-repeat;
+	background-size:contain	;
+	height: 526px ;
+	width: 1100px;
+	position: absolute;
+	top: 117px;
+	left: 300px;
+
+}
+/*this is the box*/
+.box2{
+	height: 370px;
+	width: 1351px;
+	/*background-color: red;*/
+	position: absolute;
+	top: 683px;
+	left: 5px;
+	border-top: 9px solid gray;
+	border-bottom: 5px solid gray;
+	
+
+}
+/*this part from writing*/
+.boxwriting{
+	position: absolute;
+	top: 5%;
+	left: 30%;
+}
+/*this is the emoji part */
+/*this is the plan*/
+/*.cir1{
+	border: 4px solid	black;
+	border-radius: 50px;
+	height: 30px ;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}*/
+.fa-plane{
+	background-color: white;
+	height: 70px;
+	width: 79px;
+	border: 2px solid black;
+	border-radius: 50%;
+	/*text-align: center;*/
+	padding: 20px;
+	position: absolute;
+	top: 130px;
+	left: 290px;
+	font-size: 77px;
+	cursor: pointer;
+
+}
+.fa-plane:hover{
+	background-color: #1cff55;
+}
+/*this is the hotel bed*/
+.fa-bed{
+	background-color: white;
+	height: 70px;
+	width: 79px;
+	border: 2px solid black;
+	border-radius: 50%;
+	/*text-align: center;*/
+	padding: 20px;
+	position: absolute;
+	top: 129px;
+	left: 434px;
+	font-size: 68px;
+	cursor: pointer;
+
+
+}
+.fa-bed:hover{
+	background-color:#1cff55 ;
+
+}
+/*this is the wifi emoji*/
+.fa-wifi{
+	background-color: white;
+	height: 70px;
+	width: 79px;
+	border: 2px solid black;
+	border-radius: 50%;
+	/*text-align: center;*/
+	padding: 20px;
+	position: absolute;
+	top: 129px;
+	left: 600px;
+	font-size: 68px;
+	cursor: pointer;
+
+
+}
+.fa-wifi:hover{
+	background-color:#1cff55 ;
+
+}
+/*this is the tv emoji*/
+.fa-tv{
+	background-color: white;
+	height: 70px;
+	width: 79px;
+	border: 2px solid black;
+	border-radius: 50%;
+	/*text-align: center;*/
+	padding: 20px;
+	position: absolute;
+	top: 129px;
+	left: 760px;
+	font-size: 68px;
+	cursor: pointer;
+
+
+}
+.fa-tv:hover{
+	background-color:#1cff55 ;
+
+}
+/*this is the bike*/
+.fa-person-biking{
+	background-color: white;
+	height: 70px;
+	width: 79px;
+	border: 2px solid black;
+	border-radius: 50%;
+	/*text-align: center;*/
+	padding: 20px;
+	position: absolute;
+	top: 130px;
+	left: 920px;
+	font-size: 69px;
+	cursor: pointer;
+
+}
+.fa-person-biking:hover{
+	background-color: #1cff55;
+}
+/*this is the next id emoji*/
+.fa-id-card{
+	background-color: white;
+	height: 70px;
+	width: 79px;
+	border: 2px solid black;
+	border-radius: 50%;
+	/*text-align: center;*/
+	padding: 20px;
+	position: absolute;
+	top: 130px;
+	left: 1074px;
+	font-size: 69px;
+	cursor: pointer;
+
+
+}
+.fa-id-card:hover{
+	background-color: #1cff55;
+}
+
+/*this is the holiday pack*/
+.holidaypack{
+	height: 670px;
+	width: 1500px;
+	/*background-color: red;*/
+	position: absolute;
+	top: 1077px;
+	display: flex;
+
+
+}
+/*this is the child*/
+.son1{
+	/*background-color: black;*/
+	height: 300px;
+	width: 300px;
+	margin: 19px;
+	background-image: url("exterior.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	}
+/*this is the second*/
+.son2{
+	/*background-color: green;*/
+	height: 300px;
+	width: 300px;
+	margin: 19px;
+	background-image: url("Kashmir.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+/*this the third box*/
+.son3{
+	/*background-color: pink;*/
+	height: 300px;
+	width: 300px;
+	margin: 19px;
+	background-image: url("Thailand.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.son4{
+	/*background-color: pink;*/
+	height: 300px;
+	width: 300px;
+	margin: 19px;
+	background-image: url("2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*this is box1*/
+.sn1{
+	/*background-color: pink;*/
+	height: 300px;
+	width: 300px;
+	margin: 19px;
+	position: absolute;
+	top: 299px;
+	text-align: center;
+
+
+	/*background-image: url("Thailand.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	/*display: inline-block;*/
+}
+.sn2{
+	/*background-color: green;*/
+	height: 300px;
+	width: 300px;
+	margin: 19px;
+	/*width: 262px;*/
+	/*margin: 19px;*/
+	position: absolute;
+	top: 299px;
+	left: 338px ;
+	text-align: center;
+	/*
+
+	background-image: url("2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+/*this is the third*/
+.sn3{
+	/*background-color: black;*/
+	height: 300px;
+	width: 300px;
+	margin: 19px;
+	position: absolute;
+	top: 299px;
+	left: 676px;
+	text-align: center;
+
+	/*background-image: url("Thailand.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	/*display: inline-block;*/
+}
+/*this is the fourth */
+.sn4{
+	/*background-color: pink;*/
+	height: 300px;
+	width: 300px;
+	margin: 19px;
+	position: absolute;
+	top: 299px;
+	left: 1014px;
+	text-align: center;
+
+	/*background-image: url("Thailand.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	/*display: inline-block;*/
+}
+/*this is the last box*/
+.lastbox{
+	height: 120px;
+	width: 1353px;
+	position: absolute;
+	top: 1700px;
+	background-color:#9c46f2;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 12px solid white;
+}
+/*this is the facebook icon*/
+.fa {
+  padding: 23px;
+  /*text-shadow: 2px 2px 8px white;*/
+  /*font-size: 200px;*/
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 33px 1px;
+  color: blue;
+  cursor: pointer;
+  font-weight: bold;
+}
+/*this is the hover*/
+.fa-facebook:hover{
+	text-shadow: 3px 11px 7px white;
+}
+/*this is the twitter hover*/
+.fa-twitter:hover{
+	text-shadow: 3px 11px 7px white;
+}
+/*this is youtube hover*/
+.fa-youtube:hover{
+	text-shadow: 3px 11px 7px white;
+}
+/*this is the instagram hover*/
+.fa-instagram:hover{
+	text-shadow: 3px 11px 7px white;
+}
+/*this is raddit hover*/
+.fa-reddit:hover{
+	text-shadow: 3px 11px 7px white;
+}
+/*this is snapchat hover*/
+.fa-snapchat-ghost:hover{
+	text-shadow: 3px 11px 7px white;
+}
+/*this is rss hover*/
+.fa-rss:hover{
+	text-shadow: 3px 11px 7px white;
+}
+
+/*this is the last buttom header*/
+.lastnav{
+	height: 300px;
+	width: 1353px;
+	background-color: #4358ae;
+	position: absolute;
+	top: 1830px;
+
+}
+/*this is the chid box*/
+.chil1{
+	height: 27px;
+	width: 124px;
+	/*background-color: red;*/
+	display: flex;
+	position: absolute;
+	top: 44px;
+	left: 155px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;*/
+}
+
+/*this is the second child*/
+.chil2{
+	height: 27px;
+	width: 220px;
+	/*background-color: black;*/
+	display: flex;
+	position: absolute;
+	top: 88px;
+	left: 155px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;*/
+}
+/*this is the third*/
+.chil3{
+	height: 27px;
+	width: 244px;
+	/*background-color: black;*/
+	display: flex;
+	position: absolute;
+	top: 123px;
+	left: 155px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;*/
+}
+/*this is the fourth*/
+.chil4{
+	height: 27px;
+	width: 244px;
+	/*background-color: black;*/
+	display: flex;
+	position: absolute;
+	top: 155px;
+	left: 155px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;*/
+}
+/*this is the fifth*/
+.chil5{
+	height: 27px;
+	width: 244px;
+	/*background-color: black;*/
+	display: flex;
+	position: absolute;
+	top: 190px;
+	left: 155px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;*/
+}
+/*this is the sixth part*/
+.chil6{
+	height: 27px;
+	width: 244px;
+	/*background-color: black;*/
+	display: flex;
+	position: absolute;
+	top: 44px;
+	left: 963px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;*/
+}
+/*this is the seventh part*/
+.chil7{
+	height: 27px;
+	width: 244px;
+	/*background-color: black;*/
+	display: flex;
+	position: absolute;
+	top: 88px;
+	left: 963px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;*/
+}
+/*this is the eight part*/
+.chil8{
+	height: 27px;
+	width: 244px;
+	/*background-color: black;*/
+	display: flex;
+	position: absolute;
+	top: 123px;
+	left: 963px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;*/
+}
+/*this is the ninth*/
+.chil9{
+	height: 27px;
+	width: 244px;
+	/*background-color: black;*/
+	display: flex;
+	position: absolute;
+	top: 155px;
+	left: 963px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;*/
+}
+
+
+
+ /*this part is responsive
+@media(max-width: 360px){
+	.box{
+		background-color: green;
+	}
+
+}
+@media(max-height: 640px){
+	.box1{
+		background-color: blue;
+	}
+}
